@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    flex-direction: row;
+    font-weight: 500px;
+}
+
+.header a {
+    color: goldenrod;
+    font-size: 20px;
+    margin-left: 175px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    background: rgb(96, 93, 93);
+    color: goldenrod;
+}
+
+a {
+    color: goldenrod;
+    padding: 20px;
+}
+
+a:hover {
+    color: blue;
+}
+
+footer {
+    display: grid;
+    justify-content: flex-start;
+    align-items: right;
+}

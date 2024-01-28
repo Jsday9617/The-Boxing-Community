@@ -1,0 +1,107 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    flex-direction: row;
+    font-weight: 500px;
+}
+
+.header a {
+    color: goldenrod;
+    font-size: 20px;
+    margin-left: 175px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    background-color: rgb(71, 66, 66);
+    color: goldenrod;
+}
+
+h2 {
+    margin-left: 600px;
+}
+
+form {
+    background-color: black;
+    border-color: goldenrod;
+    border-radius: 20px;
+
+}
+
+.first {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 800px;
+    padding: 50px;
+    padding-left: 75px;
+}
+
+.second {
+    margin-left: 700px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    padding: 70px;
+
+
+}
+
+input {
+    margin: 35px;
+    width: 200px;
+    padding: 5px;
+    border-width: 5px;
+    border-color: goldenrod;
+    border-radius: 70px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 70px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+.new {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+a {
+    color: goldenrod;
+    padding: 20px;
+}
+
+.active {
+    margin-left: 500px;
+    width: 500px;
+
+}
+
+.rest {
+    width: 400px;
+}
+
+button:hover {
+    color: goldenrod;
+    background-color: blue
+}
+
+a:hover {
+    color: blue;
+}
+
+footer {
+    display: grid;
+    justify-content: flex-start;
+    align-items: right;
+
+}

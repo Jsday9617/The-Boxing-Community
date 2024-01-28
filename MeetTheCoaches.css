@@ -1,0 +1,73 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    flex-direction: row;
+    font-weight: 500px;
+}
+
+.header a {
+    color: goldenrod;
+    font-size: 20px;
+    margin-left: 175px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    background-color: rgb(71, 66, 66);
+    color: goldenrod;
+}
+
+.coach {
+    margin-top: 75px;
+    margin-left: 300px;
+    width: 600px;
+    image-orientation: center;
+    object-position: middle;
+    border-radius: 15px;
+}
+
+h3 {
+    margin-left: 530px;
+}
+
+p {
+    margin: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 550px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+a {
+    color: goldenrod;
+    padding: 20px;
+}
+
+button:hover {
+    color: goldenrod;
+    background-color: blue
+}
+
+a:hover {
+    color: blue;
+}
+
+footer {
+    display: grid;
+    justify-content: flex-start;
+    align-items: right;
+}
